@@ -1,0 +1,217 @@
+body{
+    background-color: #F5DEB3;
+}
+#titulo{
+        text-align: center;
+        font-size: 65px;
+        background-color:#0000CD;
+        color:ghostwhite;
+        transition: color , background-color , transforme ;
+        transition-duration:3s,3s,1s;
+        transition-timing-function:linear;
+        animation:titulo 4s ease-out infinite;
+}
+@keyframes titulo{
+    0%{
+        color: white;
+    }
+    25%{
+        color:#0000CD;
+    }
+    75%{
+        color:black;
+    }
+}
+#titulo:hover{
+    color:black;
+    background-color:#1E90FF;
+    transform: scale(1.2,1.2);
+}
+#identificacao{
+    height:50px;
+    width:50px;
+    margin-right:3%;
+}
+#identificacao2{
+    height:50px;
+    width:50px;
+    margin-left:3%;
+}
+a{
+   color: white;
+   text-decoration:none;
+}
+a:hover{
+color:black;
+}
+header{
+    background-color:#00B2EE;
+    font-size: 35px;
+}
+nav ul {
+    box-sizing: border-box;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   list-style:none;
+}
+#img1{
+    width:400px;
+    height:250px;
+    float: left;
+    margin: 7px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border:#000080 4px solid;
+}
+#img10{
+    width:400px;
+    height:250px;
+    float:right;
+    margin-left:14px;
+    margin-right:14px;
+    margin: 7px;
+    border:#000080 4px solid;
+}
+#sub1{
+    font-size: 36px;
+    font-family:'Dela Gothic One';
+    color: black;
+}
+
+.texto1{
+   color: black;
+   text-align:justify;
+   font-size: 20px;
+   margin-right: 17px;
+  
+}
+#tex1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    color:#0000CD;
+    
+}
+#img2{
+    width:400px;
+    height:250px;
+    float: left;
+    margin: 7px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border: #000080 4px solid;
+}
+#img20{
+    width:400px;
+    height:250px;
+    float:right;
+    margin: 7px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border:#000080 4px solid; 
+}
+#sub2{
+    font-size: 36px;
+    font-family:'Dela Gothic One';
+    color: black;  
+}
+.texto2{
+    color: black;
+    text-align:justify;
+    font-size: 20px;
+    margin-right: 17px;
+}
+#tex2{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    color:#0000CD;
+}
+#img3{
+    width:400px;
+    height:250px;
+    float: left;
+    margin: 7px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border: #000080 4px solid;
+}
+#img30{
+    width:400px;
+    height:250px;
+    float: right;
+    margin: 7px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border: #000080 4px solid;
+}
+#sub3{
+    font-size: 36px;
+    font-family:'Dela Gothic One';
+    color: black;  
+}
+#tex3{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    color:#0000CD;  
+}
+.texto3{
+    color: black;
+    text-align:justify;
+    font-size: 20px;
+    margin-right: 17px;
+}
+#link:visited{
+color:#0000CD;
+}
+#img4{
+    width:400px;
+    height:250px;
+    float: left;
+    margin: 7px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border:#000080 4px solid;
+}
+#img40{
+    width:400px;
+    height:250px;
+    float:right;
+    margin: 7px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border:#000080 4px solid;   
+}
+#sub4{
+    font-size: 36px;
+    font-family:'Dela Gothic One';
+    color: black;  
+}
+#tex4{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    color:#0000CD;  
+}
+.texto4{
+    color: black;
+    text-align:justify;
+    font-size: 20px;
+    margin-right: 17px;
+}
+footer{
+    text-align: center;
+    border: 3px solid #0000CD;
+    background-color:#0000CD;
+    font-size:20px;
+    color: white;
+}
+iframe{
+    border: 15px;
+    border-left:10px;
+    border-width:15px;
+    border-radius: 5px;
+    text-align: center;
+}
